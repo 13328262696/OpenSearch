@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription>
+  <ShortName>志文工作室</ShortName>
+  <Description>志文工作室站内超级搜索</Description>
+  <Tags>lzw web</Tags>
+  <Contact>webmaster@lzw.me</Contact>
+  <Url type="application/atom+xml" template="https://lzw.me/search/{searchTerms}/feed/rss2/"/>
+  <Url type="application/rss+xml" template="https://lzw.me/search/{searchTerms}/feed/atom/"/>
+  <Url type="text/html" template="https://lzw.me/search/{searchTerms}"/>
+  <Url type="application/x-suggestions+json" method="get" template="http://www.zxsou.com/zxsou/sugclient_baidu.asp?search={searchTerms}"/>
+  <LongName>lzw.me Web Search</LongName>
+  <Image height="64" width="64" type="image/png">https://lzw.me/images/gravatar.gif</Image>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">https://lzw.me/favicon.ico</Image>
+  <Query role="example" searchTerms="javascript"/>
+  <Developer>lzw.me Development Team</Developer>
+  <Attribution>
+	 Search data Copyright 2013, lzw.me, Inc., All Rights Reserved
+  </Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>zh-cn</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
